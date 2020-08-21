@@ -1,0 +1,238 @@
+/* GENERAL STYLING */
+
+html {
+	scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+	width: 3px;
+	background-color: #eee;
+}
+
+*::-webkit-scrollbar-track {
+	background-color: #ccc;
+	width: 1px;
+	border: 1px solid #fff;
+}
+
+*::-webkit-scrollbar-button {
+	display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #000;
+}
+
+h3 {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 400;
+	color: #1886C7;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+}
+
+.btnScrollUp {
+	cursor: pointer;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	width: 40px;
+	height: 40px;
+	background: url(../img/btnYukariGit.png) no-repeat center center;
+	background-size: contain;
+}
+
+/*NAVBAR*/
+
+.navbar {
+	background-color: rgba(0, 0, 0, 1);
+	border-bottom: #1886C7 solid 10px;
+}
+
+.navbar .navbar-brand {
+	color: #1886C7;
+	font-size: 24px;
+}
+
+.nav-link {
+	transition: color .3s ease !important;
+}
+
+.nav-link:hover {
+	color: #1886C7 !important;
+}
+
+/*HEADER*/
+
+header {
+	background: url(../img/bg-header.jpg) no-repeat fixed center;
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+header .overlay {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+header .row {
+	height: 100vh;
+}
+
+header span {
+	color: #1886C7;
+}
+
+/*FEATURES*/
+
+.features-top {
+	color: #1886C7 !important;
+	transition: color 0.5s ease !important;
+}
+
+.features-top:hover {
+	color: #000000 !important;
+	cursor: pointer;
+}
+
+/*OUR HİSTORY*/
+
+#our-history h2 {
+	padding-left: 15px;
+	border-left: #1886C7 solid 7px;
+}
+
+#our-history p {
+	line-height: 30px;
+}
+
+/*TEAM*/
+
+#team i {
+	color: #1886C7;
+}
+
+#team i:hover {
+	color: black !important;
+}
+
+/*WHAT WE DO*/
+
+#whatWeDo {
+	background: url(../img/bg-code.jpg) no-repeat center fixed;
+	background-size: cover;
+	-weblit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#whatWeDo i {
+	padding: 10px;
+	margin-right: -7px;
+	color: #1886C7 !important;
+}
+
+#whatWeDo i:hover {
+	color: #000000 !important;
+}
+
+#whatWeDo a {
+	border: #1886C7 solid 7px;
+	border-radius: 50%;
+}
+
+#whatWeDo a:hover {
+	border: #000000 solid 7px !important;
+	color: #000000 !important;
+}
+
+/*OUR WORK*/
+
+#ourWork i {
+	color: #1886C7;
+}
+
+#ourWork h4 {
+	color: #1886C7;
+}
+
+#ourWork p {
+	line-height: 30px;
+}
+
+/*PORTFOLİO*/
+
+#portfolio .img-portfolio {
+	padding: 0 !important;
+}
+
+#portfolio {
+	background-color: #f4f4f4;
+}
+
+#portfolio h3 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#portfolio p {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.imgContainer {
+	position: relative;
+	cursor: pointer;
+}
+
+.imgOverlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background-color: #1886C7;
+	opacity: 0;
+	transition: all 1s ease;
+}
+
+.imgContainer:hover .imgOverlay {
+	opacity: 0.7;
+}
+
+.imgText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+/*CONTACT*/
+#contact h4{
+	color: #1886C7;
+}
+#contact .mailLink{
+	color: black;
+	text-decoration-line: none;
+}
+#contact li a:hover{
+	color: black !important;
+}
+#contact .fas{
+	margin-left: -6px;
+}
+/*FOOTER*/
+footer{
+	background-color: black;
+}
